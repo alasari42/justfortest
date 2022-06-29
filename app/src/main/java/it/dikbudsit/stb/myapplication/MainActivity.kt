@@ -67,8 +67,5 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
-
-
     }
 }
