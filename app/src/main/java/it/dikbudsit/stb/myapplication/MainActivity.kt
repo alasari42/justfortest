@@ -8,9 +8,10 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
 import it.dikbudsit.stb.myapplication.databinding.ActivityMainBinding
+import it.dikbudsit.stb.myapplication.ui.main.BaseActivity
 import it.dikbudsit.stb.myapplication.ui.main.SectionsPagerAdapter
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
